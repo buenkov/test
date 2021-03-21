@@ -7,7 +7,6 @@ public class cookie {
         int count = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите строку для поиска");
-        System.out.println("Введите строку для поиска");
         String text = scanner.nextLine();
         Pattern pattern = Pattern.compile("\\ +[sS]+[a-zA-Z]+\\ ");
         Matcher matcher = pattern.matcher(text);
