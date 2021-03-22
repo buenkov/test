@@ -17,5 +17,8 @@ public class exprint {
         anywareTank.refill("30 литров солярки");
         customTank.refill("- (20) литров");
         customTank.refill("");
+        customTank.refill("");
+        customTank.refill("");
+        customTank.refill("");
     }
 }
