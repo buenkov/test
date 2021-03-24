@@ -1,5 +1,9 @@
 public class test_branch {
     public static void main(String[] args) {
-        System.out.println("Корневая ветка лоймакс");
+<<<<<<<<< Temporary merge branch 1
+        System.out.println("branch1");
+=========
+        System.out.println("branch3");
+>>>>>>>>> Temporary merge branch 2
     }
 }
