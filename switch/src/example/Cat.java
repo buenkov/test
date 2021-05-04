@@ -1,9 +1,13 @@
 package example;
 
+import java.util.Arrays;
+
 public class Cat {
     public static void main(String[] args) {
 Cat barsic = new Cat(3000,"Barsic",5,"grey");
 barsic.meow();
+
+
     }
 
 

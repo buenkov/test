@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите 1-ый операнд");
-        int operand1 = scanner.nextInt();
+        float operand1 = scanner.nextFloat();
         char operation = '+';
         while (operation != 's') {
             System.out.println("введите действие");
@@ -18,14 +18,14 @@ public class Main {
                 continue;
             }
             System.out.println("введите следующий операнд");
-            int operand2 = scanner.nextInt();
+            float operand2 = scanner.nextFloat();
             System.out.print("Значение = ");
             System.out.println(operand1 = calculate(operand1, operation, operand2));
         }
     }
 
-    private static int calculate(int a, char c, int b) {
-        int result = 0;
+    private static float calculate(float a, char c, float b) {
+        float result = 0;
         switch (c) {
             case '+':
                 result = a + b;
